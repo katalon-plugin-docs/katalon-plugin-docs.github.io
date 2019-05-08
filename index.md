@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+## Welcome to Documentation for Katalon Store plugins
 
-You can use the [editor on GitHub](https://github.com/katalon-plugin-docs/katalon-plugin-docs.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+All the documentation you need to know to successfully install, configure and manage your [Katalon Store](https://store.katalon.com/) plugins can be found here. We keep the documentation as up to date and correct as possible, so your feedback is more than welcome.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+We recommend you go over the documentation of each plugin, to get an overview of what you will be working with. This comprehensive documentation is the quickest way to get answers to many of your questions.
 
-### Markdown
+### Katalon Store plugins
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- **Katalon Studio plugins:**
 
-```markdown
-Syntax highlighted code block
+  This type of plugins does two things:
 
-# Header 1
-## Header 2
-### Header 3
+  1. Listens to the plugin activation event 15 then prints a hello message after the plugin was installed successfully in Katalon Studio.
+  
+  2. Listens to the test execution event 10 then prints a report message in Console.
 
-- Bulleted
-- List
+- **Custom Keywords plugins:**
 
-1. Numbered
-2. List
+  A Custom Keywords plugin is essentially a normal Katalon Studio project with some Custom Keywords implementation. This type of plugins is available since Katalon Studio 6.0.6.
+  
+### Quick user's guides
 
-**Bold** and _Italic_ and `Code` text
+Check out these resources to learn how to install and activate plugins from store:
 
-[Link](url) and ![Image](src)
-```
+[Getting Started](https://docs.katalon.com/katalon-store/docs/user/getting-started.html#sign-in-to-katalon-store)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+[Access to store in Katalon Studio](https://docs.katalon.com/katalon-store/docs/user/access-store-in-KS.html)
 
-### Jekyll Themes
+### Develop a new plugin
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/katalon-plugin-docs/katalon-plugin-docs.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+If you are brand new to Katalon Store and want to jump into developing a new plugin, familiarize yourself with Guidelines to create your first [Katalon Studio plugin](https://docs.katalon.com/katalon-store/docs/publisher/create-plugin.html) or [Custom Keywords plugin](https://docs.katalon.com/katalon-store/docs/publisher/how-to-develop-custom-keywords-plugins.html).
+
+
 
 ### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+#### Katalon Community
+For technical and product-specific questions, please post your questions to the [Plugin topic](https://forum.katalon.com/c/katalon-studio/plugin-platform) in Katalon forum. We have a team of product specialists and community users to assist with your issues.
+#### Contact Us
+Having trouble with Pages? Check out our [documentation](https://docs.katalon.com/katalon-store/docs/user/getting-started.html) or contact us via store@katalon.com and we’ll help you sort it out.
