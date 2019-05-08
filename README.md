@@ -1,4 +1,4 @@
-# katalon-plugin-docs.github.io
+# Katalon Store
 
 Katalon Store serves as a platform for testers and developers to install add-on products, also known as ‘plugins,’ to help our users add more features and optimize test automation strategies in Katalon Studio. 
 
