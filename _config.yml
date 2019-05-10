@@ -1,4 +1,7 @@
 title: Katalon Store Docs
+github:
+  is_project_page: true
+  repository_url: https://github.com/katalon-plugin-docs
 description: All the documentation to successfully install, configure and manage your Katalon plugins.
 show_downloads: true
 google_analytics: UA-81802338-14
